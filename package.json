@@ -1,0 +1,15 @@
+{
+  "name": "typescript-senac",
+  "version": "1.0.0",
+  "description": "Atividades da UC8 do Senac",
+  "license": "ISC",
+  "author": "Enzo Makenzy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
