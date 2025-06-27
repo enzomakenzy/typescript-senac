@@ -3,13 +3,13 @@ const arr: (number | string)[] = ["Enzo", 2, 103.5, 24.3, "Batata", "Typescript"
 let numbersList = arr
   .filter(item => typeof item === "number")
   .map((item) => {
-  return <number>item;
+  return item as number;
 })
 
 let charactersList = arr
   .filter(item => typeof item === "string")
   .map((item) => {
-  return <string>item;
+  return item as string;
 })
 
 console.log(numbersList);
