@@ -1,3 +1,5 @@
-let username: any = <string>"Enzo";
+let usernameAnyType: any = "Enzo";
 
-console.log(username);
+let usernameStringType = usernameAnyType as string
+
+console.log(usernameStringType);
