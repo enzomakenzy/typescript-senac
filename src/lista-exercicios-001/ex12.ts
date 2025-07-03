@@ -9,7 +9,4 @@ type Bus = {
   payloadCapacity: number;
 }
 
-type Vehicle = {
-  car: Car;
-  bus: Bus;
-}
+type Vehicle = Car | Bus;
